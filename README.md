@@ -12,13 +12,17 @@ An end-to-end Machine Learning, Explainable AI (XAI), Unsupervised Customer Segm
 
 ## 🌐 Live Demo & Quick Start
 
+### 🐙 GitHub Repository
+[GitHub Repository](https://github.com/pranavdharme2005-lgtm/Customer-Churn-Prediction-Explainable-Business-Analytics-Platform.)
+
 ### 🚀 Live Demo
 `Live Demo: To be added after deployment`
 
 ### 💻 Run Locally in 3 Steps
 ```bash
 # 1. Clone repository & navigate to project root
-cd customer-churn-prediction
+git clone https://github.com/pranavdharme2005-lgtm/Customer-Churn-Prediction-Explainable-Business-Analytics-Platform.git
+cd Customer-Churn-Prediction-Explainable-Business-Analytics-Platform
 
 # 2. Install pinned production dependencies
 pip install -r requirements.txt

@@ -1,0 +1,10 @@
+Service_Category,total_customers,churned_customers,churn_rate_pct
+Fiber optic,3096,1297,41.89
+DSL,2421,459,18.96
+No,1526,113,7.4
+No,3473,1446,41.64
+Yes,2044,310,15.17
+No internet service,1526,113,7.4
+No,3498,1461,41.77
+Yes,2019,295,14.61
+No internet service,1526,113,7.4

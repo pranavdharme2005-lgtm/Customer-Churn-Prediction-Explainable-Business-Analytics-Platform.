@@ -1,0 +1,16 @@
+Customer_Label,Scenario,Changed_Feature,Original_Value,New_Value,Baseline_Probability,Scenario_Probability,Probability_Change,Absolute_Change,Risk_Direction,Predicted_Class,Risk_Label
+Customer #6 (High Risk),Baseline (Current Profile),None,Baseline,Baseline,0.9703,0.9703,0.0,0.0,No Change,1,High Churn Risk
+Customer #6 (High Risk),Scenario A1: Tenure Increase (+16m),tenure,8,24,0.9703,0.8444,-0.1259,0.1259,Decreased Risk,1,High Churn Risk
+Customer #6 (High Risk),Scenario A2: Tenure Increase (+40m),tenure,8,48,0.9703,0.7035,-0.2668,0.2668,Decreased Risk,1,High Churn Risk
+Customer #6 (High Risk),Scenario B1: Monthly Bill Discount ($75),MonthlyCharges,99.65,75.0,0.9703,0.8447,-0.1256,0.1256,Decreased Risk,1,High Churn Risk
+Customer #6 (High Risk),Scenario C1: Contract Upgrade (1-Year),Contract,Month-to-month,One year,0.9703,0.7004,-0.2699,0.2699,Decreased Risk,1,High Churn Risk
+Customer #6 (High Risk),Scenario C2: Contract Upgrade (2-Year),Contract,Month-to-month,Two year,0.9703,0.6282,-0.3421,0.3421,Decreased Risk,1,High Churn Risk
+Customer #6 (High Risk),Scenario D1: Add Tech Support,TechSupport,No,Yes,0.9703,0.8687,-0.1016,0.1016,Decreased Risk,1,High Churn Risk
+Customer #6 (High Risk),Scenario E1: Add Online Security,OnlineSecurity,No,Yes,0.9703,0.9152,-0.0551,0.0551,Decreased Risk,1,High Churn Risk
+Customer #6 (High Risk),Scenario F1: Switch Payment (Auto Credit Card),PaymentMethod,Electronic check,Credit card (automatic),0.9703,0.948,-0.0223,0.0223,Decreased Risk,1,High Churn Risk
+Customer #6 (High Risk),Scenario G1: Combined Retention Bundle,"Contract, TechSupport, OnlineSecurity, PaymentMethod","Month-to-month, No, No, Electronic check","One year, Yes, Yes, Bank transfer (automatic)",0.9703,0.6293,-0.3411,0.3411,Decreased Risk,1,High Churn Risk
+Customer #34 (Medium Risk),Baseline (Current Profile),None,Baseline,Baseline,0.5204,0.5204,0.0,0.0,No Change,1,High Churn Risk
+Customer #34 (Medium Risk),Scenario A1: Tenure Increase (12m),tenure,1,12,0.5204,0.2949,-0.2256,0.2256,Decreased Risk,0,Low Churn Risk
+Customer #34 (Medium Risk),Scenario C1: Contract Upgrade (1-Year),Contract,Month-to-month,One year,0.5204,0.2285,-0.2919,0.2919,Decreased Risk,0,Low Churn Risk
+Customer #34 (Medium Risk),Scenario D1: Add Tech Support,TechSupport,No internet service,Yes,0.5204,0.5234,0.003,0.003,Increased Risk,1,High Churn Risk
+Customer #34 (Medium Risk),Scenario E1: Add Online Security,OnlineSecurity,No internet service,Yes,0.5204,0.5015,-0.0189,0.0189,Decreased Risk,1,High Churn Risk

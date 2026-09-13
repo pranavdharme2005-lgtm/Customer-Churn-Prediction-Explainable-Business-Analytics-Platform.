@@ -1,0 +1,49 @@
+Feature,Importance
+Contract_Month-to-month,0.10942637006156777
+tenure,0.10488370714134052
+TotalCharges,0.0970891244304465
+MonthlyCharges,0.06508581049446303
+AverageMonthlySpend,0.06394377497580998
+TechSupport_No,0.056148790193023504
+OnlineSecurity_No,0.04575383972656272
+InternetService_Fiber optic,0.045374112023246385
+Contract_Two year,0.044967125486804906
+IsFirstYear,0.038489942690835596
+PaymentMethod_Electronic check,0.03339360573982672
+OnlineBackup_No,0.01878309205071407
+Contract_One year,0.018062007093376322
+ServiceCount,0.015918690670266075
+InternetService_DSL,0.0149498436819007
+OnlineSecurity_Yes,0.013088889128243918
+PaperlessBilling_No,0.010814528500459079
+PaperlessBilling_Yes,0.00994170599135467
+StreamingTV_No internet service,0.009651518898409504
+TechSupport_No internet service,0.009048442126016968
+gender_Male,0.008870671977721838
+TechSupport_Yes,0.008640526396319893
+DeviceProtection_No,0.008403345640714545
+gender_Female,0.008196640589041036
+PaymentMethod_Credit card (automatic),0.007486150351703622
+Partner_Yes,0.007485989706078716
+InternetService_No,0.00742159070414051
+StreamingMovies_No internet service,0.007272545932112372
+Dependents_Yes,0.007029147274594023
+Partner_No,0.006968822053377166
+OnlineBackup_Yes,0.006833095772985922
+Dependents_No,0.006780442045017896
+MultipleLines_Yes,0.00664721121795113
+StreamingMovies_Yes,0.00662830965406812
+PaymentMethod_Bank transfer (automatic),0.006618152545933645
+MultipleLines_No,0.006510126104723826
+StreamingTV_No,0.006180125406202199
+StreamingMovies_No,0.006064906304266436
+StreamingTV_Yes,0.005959051450510462
+DeviceProtection_No internet service,0.005921209676508833
+SeniorCitizen,0.00568024475121214
+DeviceProtection_Yes,0.00522675961549276
+PaymentMethod_Mailed check,0.005209572505635474
+OnlineBackup_No internet service,0.005077762503266673
+OnlineSecurity_No internet service,0.0049462920250571
+PhoneService_No,0.0027284230082471094
+PhoneService_Yes,0.002270599218123563
+MultipleLines_No phone service,0.0021273644643240866

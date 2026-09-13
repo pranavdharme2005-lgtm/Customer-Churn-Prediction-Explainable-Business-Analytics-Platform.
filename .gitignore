@@ -1,0 +1,39 @@
+# Python cache & virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE & OS specific
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets & Local Configurations
+.env
+*.secrets.toml
+
+# Machine Learning & Data Artifacts Exclusions
+# Preserve production models & deployment datasets required for Streamlit Cloud
+!models/final_churn_pipeline.joblib
+!models/final_churn_model.joblib
+!models/preprocessor.joblib
+!models/customer_segmentation_model.joblib
+!models/segmentation_scaler.joblib
+
+!data/processed/cleaned_customer_churn.csv
+!data/processed/customer_segments.csv
+!reports/customer_recommendations.csv
+!reports/what_if_results.csv
+!reports/feature_importance.csv
+
+# Ignore scratch & temporary task logs
+scratch/
+.system_generated/

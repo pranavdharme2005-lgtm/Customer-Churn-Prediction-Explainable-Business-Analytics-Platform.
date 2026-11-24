@@ -40,7 +40,8 @@ This report synthesizes the empirical findings from **Stage 3: Exploratory Data 
 | Question / Feature | Key Finding & Churn Rates |
 |---|---|
 | **Q1. Contract Type** | **Month-to-month**: **42.71%** churn rate vs **11.27%** (1-Year) and **2.83%** (2-Year). Short commitments are the #1 risk factor. |
-| **Q2. Tenure Duration** | New customers (**0–12 months**) churn at **47.44%**. Churn drops below **10%** after 48 months. |
+| **Q2. Tenure Duration** | New customers (**0–12 months**) churn at **47.44%**. Churn drops below **10%** after 48 months. |-
+**Additional Tenure Insight**: The median tenure of churned customers is **10 months**, compared with **38 months** for retained customers. This highlights the importance of early customer retention.
 | **Q3. Monthly Charges** | Median monthly bill for churned customers is **$79.65** vs **$64.42** for retained customers. High monthly costs increase churn. |
 | **Q4. Internet Service** | **Fiber optic** users churn at **41.89%** vs **18.96%** for DSL and **7.40%** for non-internet users. |
 | **Q5. Tech Support** | Customers **without Tech Support** churn at **41.64%** vs **15.17%** for those with Tech Support. |
@@ -90,6 +91,7 @@ This report synthesizes the empirical findings from **Stage 3: Exploratory Data 
 4. **Bundle Support & Security Add-Ons**: Customers without Tech Support (41.64% churn) or Online Security (41.77% churn) leave at nearly triple the rate of those with add-ons. Offering discounted support/security bundles can serve as retention anchors.
 5. **Promote Automatic Payment Enrollment**: Electronic check users churn at 45.29%. Transitioning customers to automatic bank transfers or credit card auto-pay can lower churn by over 25 percentage points.
 6. **Senior Citizen Tailored Engagement**: Senior citizens exhibit a 41.68% churn rate. Dedicated support lines or simplified billing packages could reduce senior attrition.
+7. **Senior Citizen Contract Risk**: Senior citizens with month-to-month contracts exhibit a churn rate of **45.35%**, compared with **39.57%** for non-senior customers with the same contract type. This segment may benefit from simplified plans, accessible customer support, and personalized retention strategies.
 
 ---
 
@@ -97,3 +99,4 @@ This report synthesizes the empirical findings from **Stage 3: Exploratory Data 
 - **Observational Correlation**: Cross-sectional data shows correlations but cannot establish strict causal relationships.
 - **Lack of Usage Metrics**: Dataset does not include actual data usage (GB consumed), customer service call logs, or net promoter scores (NPS).
 - **Class Imbalance**: Imbalanced target requires careful model evaluation in Stage 4.
+- **Segment-Level Analysis**: The higher churn rate among senior citizens with month-to-month contracts indicates an association, but further customer feedback is needed to understand the underlying reasons.
